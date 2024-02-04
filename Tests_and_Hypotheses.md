@@ -42,25 +42,6 @@ ps
 ps.raref <- rarefy_even_depth(ps)
 ```
 
-```
-## You set `rngseed` to FALSE. Make sure you've set & recorded
-##  the random seed of your session for reproducibility.
-## See `?set.seed`
-```
-
-```
-## ...
-```
-
-```
-## 48OTUs were removed because they are no longer 
-## present in any sample after random subsampling
-```
-
-```
-## ...
-```
-
 ```r
 plot_richness(ps.raref, x = "Source", measures=c("Observed", "Simpson"), color = "Site")
 ```
